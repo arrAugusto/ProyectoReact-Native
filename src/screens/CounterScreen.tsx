@@ -12,19 +12,15 @@ export const CounterScreen = () => {
       <Fab 
         title= "+1"
         onPress={() => setCount(count + 1)}
+        position ='br'
       />
       <Fab 
         title= "-1"
         onPress={() => setCount(count - 1)}
+        position='bl'
       />
 
-      {/*<TouchableOpacity
-        style={styles.fabLocationBL}
-        onPress={() => setCount(count - 1)}>
-        <View style={styles.fab}>
-          <Text style={styles.fabText}>-1</Text>
-        </View>
-      </TouchableOpacity>*/}
+
 
     </View>
   );
